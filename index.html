@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação de valores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="container">
+        <h1>Validação</h1>
+    </header>
+    <div class="container">
+        <h2>Preencha os campos abaixo:</h2>
+        <form id="form-valida">
+            <input type="number" required placeholder="Digite o primeiro valor:" id="num1">
+            <input type="number" required placeholder="Digite o segundo valor:" id="num2">
+            <button onclick="verificar()">Verificar</button>
+        </form>
+        <p id="result"></p>
+        <p id="error"></p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
